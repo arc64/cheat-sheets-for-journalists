@@ -86,7 +86,7 @@ Some examples:-
     * [Italy's data catalog](http://www.dati.gov.it/content/datigovit-il-portale-dei-dati-aperti-della-pa)
     * [Tenders electronic data](http://ted.europa.eu/TED/main/HomePage.do)
 
-    #### Oranisations
+    #### Organisations
     * [World Bank](http://data.worldbank.org/)
     * [World Health Organization](http://www.who.int/research/en/)
 
