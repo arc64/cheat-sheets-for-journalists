@@ -1,0 +1,7 @@
+cache/*
+*.pyc
+
+node_modules
+env
+.DS_Store
+.npmignore
