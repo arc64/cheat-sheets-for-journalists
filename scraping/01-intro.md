@@ -48,6 +48,8 @@ If you find data on a website and you need to scrape it, you will need to proces
 
 While you should be fine collecting publically avaliable data, there are [legal](http://datajournalismhandbook.org/1.0/en/getting_data_7.html), [licencing](http://opendefinition.org/licenses/), and [compasionate](http://lethain.com/an-introduction-to-compassionate-screenscraping/) considerations to think of when scraping.
 
+One thing to remember when you scrape is that computers are fast. Humans are slow, and if you scrape a lot of data very fast from someones website - you can stop that site from working.
+
 ---
 
 ## Most common things to scrape

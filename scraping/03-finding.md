@@ -1,6 +1,6 @@
 ---
 title: Finding data
-notesSeparator: \n...\n
+notesSeparator: \n___\n
 revealOptions:
     transition: 'fade'
 ---
@@ -16,7 +16,7 @@ If you are in the right place at the right time sometimes documents appear -
 
 ## Ask someone
 
-Ask a real person or the internet at [get the data](http://getthedata.org/) or [Quora](https://www.quora.com/)
+Ask a real person or the internet at [get the data](http://getthedata.org/) or [Quora](https://www.quora.com/) or [Stack Overflow](http://stackoverflow.com/questions/tagged/web-scraping)
 
 ---
 
@@ -51,7 +51,7 @@ For example: "filetype:csv crime" in google will bring back search results that 
 
 ### Use keywords such as downloads, database download, directory listing etc
 
-...
+___
 
 Have a look at the [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/getting_data_0.html)
 

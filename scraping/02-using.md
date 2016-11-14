@@ -1,9 +1,3 @@
----
-title: What can be done with data?
-notesSeparator: \n...\n
-revealOptions:
-    transition: 'fade'
----
 
 ## What can I do with it?
 
