@@ -1,9 +1,3 @@
----
-title: Tools for non-programmers
-notesSeparator: \n...\n
-revealOptions:
-    transition: 'fade'
----
 
 ## Data tables and single pages
 
@@ -15,7 +9,7 @@ scraping with Google Spreadsheets
 
 (Very easy)
 
-...
+___
 
  So when you want to get a HTML table out of a webpage you can use Google Spreadsheets.
 
@@ -35,7 +29,7 @@ scraping with Google Spreadsheets
 
 [Extracting data from HTML tables](http://schoolofdata.org/handbook/recipes/liberating-html-tables/) is a complete walkthrough.
 
-...
+___
 
 [Paul Bradshaw - scrape in 60 minutes](http://www.slideshare.net/onlinejournalist/scraping1hr-data-harvest-slideshare)
 [Dataharvest](http://www.kaasogmulvad.dk/en/2014/05/training-at-data-harvest-2014/)
@@ -59,7 +53,7 @@ scraping with Google Spreadsheets
 
 (Easy)
 
-...
+___
 
 A browser plugin or extension is a computer program that extends the functionality of your browser.
 
