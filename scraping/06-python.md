@@ -82,29 +82,54 @@ control D
 
 ...
 
-00
+00 - Url checking
+lxml - has to understand when html is broken
 
 ---
 
-Url checking
+## BeautifulSoup
+
+...
+
+Pros and cons, saves time, bit more robust, can be a bit slower
+
+---
 
 ## What if it is many pages
 
+...
+
 Button pressing / Next or number
+
+---
 
 ## Dealing with downloading files
 
+---
+
 ## Complexity, submiting
 
-## Scrapy (beyond urllib2, requests)
+...
 
 Form submission
 
-
-Migration datasets
-
+---
 
 # Loading and latency
+
+---
+
+# Kindness
+
+Cache feverently. Stagger http requests. Take only what you need.
+
+
+...
+
+http://jonathansoma.com/lede/foundations/classes/friday%20sessions/advanced-scraping-form-submissions-completed/
+
+http://lethain.com/an-introduction-to-compassionate-screenscraping/
+
 speed
 500milisecons
 mimicing a client, multi-processing / multi-threading

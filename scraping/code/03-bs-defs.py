@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # from string import ascii_lowercase
+## http://stackoverflow.com/questions/4967103/beautifulsoup-and-lxml-html-what-to-prefer
 
 def make_soup(url):
     page = requests.get(url)
@@ -11,7 +12,7 @@ def make_soup(url):
     return soupdata
 
 soup  = make_soup('https://www.parliament.uk/mps-lords-and-offices/lords/deceased-lords/')
-# link = soup.find(attrs=["class":"lsakj flkj flksfj "])
-# print(link.get("href"))
 
-print soup
+#print(soup.prettify())
+table = soup.find(id="deceasedLords")
+print(table)

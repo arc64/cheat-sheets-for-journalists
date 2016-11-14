@@ -3,17 +3,18 @@
 #things happen in the broswer, happen in the server
 
 import sys #system arguments
-from PyQt4.QtGui import QApplication # applications
-from PyQt4.QtCore import QUrl #url
-from PyQt4.QtWebKit import QWebPage #runs as browser
+from QtPy.QtGui import QApplication # applications
+from QtPy.QtCore import QUrl #url
+from QtPy.QtWebKit import QWebPage #runs as browser
 
-bs4 as bs4
+from bs4 import BeautifulSoup
+
 urllib.request
 
 ## html5lib alt to urllib?
 
 # sauce = urllib.request.urlopen('https//pythonprogramming.net').read()
-# soup = bs.BeautifulSoup(sauce,'lxml')
+# soup = BeautifulSoup.BeautifulSoup(sauce,'lxml')
 # ## not a browser, so js not running
 # js_test = soup.find('p', class_='jstest')
 
@@ -31,12 +32,11 @@ class Client(QWebPage):
 
 
 ## PyQT,
-# pipinstall pythonqd?
 #self
 
 url = 'https//pythonprogramming.net'
 client_response = Client(url)
 source = client_response
-soup = bs.BeautifulSoup(sauce,'lxml')
+soup = BeautifulSoup.BeautifulSoup(sauce,'lxml')
 js_test = soup.find('p', class_='jstest')
 print(js_test.text)

@@ -1,13 +1,14 @@
-bs4 as bs4
-urllib.request
+import requests
+
+from bs4 import BeautifulSoup
 
 ## html5lib alt to urllib?
 
-sauce = urllib.request.urlopen('https//pythonprogramming.net').read()
+sauce = urllib.request.urlopen('https://en.wikipedia.org/wiki/European_migrant_crisis').read()
 
-soup = bs.BeautifulSoup(sauce,'lxml')
+soup = BeautifulSoup.BeautifulSoup(sauce,'lxml')
 
-# print(sauce)
+print(sauce)
 # print(soup.title.name)
 # print(soup.title.string)
 # print(soup.title.text)
