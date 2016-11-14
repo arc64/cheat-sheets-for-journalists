@@ -2,7 +2,7 @@
 title: Scraping
 separator: \n---\n
 verticalSeparator: \n----\n
-notesSeparator: \n...\n
+notesSeparator: \n___\n
 revealOptions:
     transition: 'fade'
 ---
@@ -20,7 +20,7 @@ with your co-host [@annabelchurch](http://twitter.com/annabelchurch)
 
 it isn't always in the format we want
 
-...
+___
 
 So you want to investigate something, seek out information to see if there is a story there. Before the internet you had to find someone, phone someone, use your spy to seek out information.
 
@@ -28,7 +28,7 @@ So you want to investigate something, seek out information to see if there is a 
 
 ## Ask for it, find it, collect it.
 
-...
+___
 
 And this is still true; you can ask for data, you can find it, and you can collect it. However, the web is a storehouse of data.
 
@@ -40,7 +40,7 @@ And this is still true; you can ask for data, you can find it, and you can colle
 
 ## Information is data.
 
-...
+___
 
 You can get your information from government, organisations or scientific institutions.
 
@@ -52,8 +52,23 @@ While you should be fine collecting publically avaliable data, there are [legal]
 
 ## Most common things to scrape
 
-content, tables, urls
+content, tables, URLs
 
----
+___
+
+So scraping. You can look for a specific piece of content.
+
+i.e. All of the actors in a movie, or all of the images for a movie from [IMDB](http://www.imdb.com/title/tt0121210/)
+
+Or a table.
+
+i.e Like demographic [data on wikipedia](https://en.wikipedia.org/wiki/European_migrant_crisis)
+
+Or URLs to more content.
+
+i.e Like the bios of all the [deceased members of the house of lords](https://www.parliament.uk/mps-lords-and-offices/lords/deceased-lords/)
+
+
+
 
 
